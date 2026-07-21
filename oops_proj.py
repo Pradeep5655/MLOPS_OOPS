@@ -1,9 +1,30 @@
 class chatbook:
+  
+  __user_id = 1
+  
   def __init__(self):
+    self.id = chatbook.__user_id
+    chatbook.__user_id += 1
+    self.__name= "Default user"
     self.username = ''
     self.passward = ''
     self.loggin = False
-    self.menu()
+    # self.menu()
+    
+  
+  @staticmethod 
+  def get_id(self):
+     return chatbook.__user_id
+  
+  @staticmethod
+  def set_id(value):
+    chatbook.__user_id = value  
+    
+  def get_name(self):
+      return self.__name
+    
+  def set_name(self,value):
+      self.__name = value
     
   def menu(self):
     user_ip = input("""Welcome to CHatbook !! How wold you like to proceed?
@@ -69,6 +90,3 @@ class chatbook:
     print("\n")
     self.menu()
      
-     
-user1 = chatbook()
-    
