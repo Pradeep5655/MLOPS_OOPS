@@ -17,8 +17,17 @@
     > magic mthd or dubder mthd
     > self 
     > You can create attribute outside class as well
-    
+
     > encapsulation
     > getter and setter
     > Static method
 
+6. Inheritance
+
+    > Inheritance code example
+    > why Inheritance is needed? (Code reusability, parent has no access to chid class)
+    >what gets Inherited ? - constructor, Non private attribute , Non private methods
+    >constructor overloading & mthod overloading
+    >super keyword(can be used only inside class, can not be access variables/attributes, used only inside childe class)
+
+    > Types of Inheritance -1. Single Inheritance | 2. Multilevel | 3. Hierarchical | 4. Multiple <Diamond problem> | 5. Hybrid
